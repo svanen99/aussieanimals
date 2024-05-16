@@ -1,0 +1,12 @@
+/* Layout.module.css */
+
+.layout {
+    display: flex;
+    margin-top: 50px; /* height of the navbar */
+}
+
+.mainContent {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 200px; /* width of the sidebar */
+}

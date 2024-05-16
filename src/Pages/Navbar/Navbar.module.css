@@ -1,0 +1,42 @@
+/* .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #a0d89d;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.hamburger {
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    background-color: #eabde6;
+    width: 25%;
+    left: 0;
+}
+
+.navigation a {
+    color: #ca6bc0;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background-color: #eabde6;
+} */

@@ -1,0 +1,23 @@
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 30px;
+    position: fixed;
+    left: 0;
+    height: calc(100vh);
+    overflow-y: auto;
+}
+
+.sidebar a {
+    color: #333;
+    text-decoration: none;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: block;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: #ddd;
+}
