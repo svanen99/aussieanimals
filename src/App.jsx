@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomeHero from './Components/HomeHero';
-import Mammals from './Components/Mammals/Echidna';
-import Birds from './Components/Birds';
-import Reptiles from './Components/Reptiles';
+import MammalsComponent from './Components/Mammals';
+import BirdsComponent from './Components/Birds';
+import ReptilesComponent from './Components/Reptiles';
 import Sidebar from './Components/Sidebar';
 import Layout from './Components/Layout';
 
@@ -12,9 +12,9 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<HomeHero />} />
-          <Route path="mammals" element={<Mammals />} />
-          <Route path="birds" element={<Birds />} />
-          <Route path="reptiles" element={<Reptiles />} />
+          <Route path="mammals" element={<MammalsComponent />} />
+          <Route path="birds" element={<BirdsComponent />} />
+          <Route path="reptiles" element={<ReptilesComponent />} />
         </Routes>
       </Layout>
     </BrowserRouter>
