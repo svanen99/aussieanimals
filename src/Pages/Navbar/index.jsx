@@ -26,7 +26,9 @@ const Navbar = () => {
             {showNavItems && (
                 <div className={styles.navigation}>
                     <NavLink className={({ isActive }) => isActive ? styles.active : ''} to='/'>Home</NavLink>
-                    <NavLink className={({ isActive }) => isActive ? styles.active : ''} to='/mammals'>Mammals</NavLink>
+                    <NavLink className={({ isActive }) => isActive ? styles.active : ''} to='/echidna'>Echidna</NavLink>
+                    <NavLink className={({ isActive }) => isActive ? styles.active : ''} to='quokka'>Quokka</NavLink>
+                    <NavLink className={({ isActive }) => isActive ? styles.active : ''} to='tasmaniandevil'>Tasmaniandevil</NavLink>
                     <NavLink className={({ isActive }) => isActive ? styles.active : ''} to='/birds'>Birds</NavLink>
                     <NavLink className={({ isActive }) => isActive ? styles.active : ''} to='/reptiles'>Reptiles</NavLink>
                 </div>
