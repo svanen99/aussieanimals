@@ -1,0 +1,14 @@
+img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.yellowtailedblackcockatoo {
+    text-align: center;
+}
+
+p {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}

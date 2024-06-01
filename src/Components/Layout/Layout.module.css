@@ -1,12 +1,37 @@
-/* Layout.module.css */
-
 .layout {
     display: flex;
     margin-top: 50px; /* height of the navbar */
-}
-
-.mainContent {
+  }
+  
+  .sidebar {
+    width: 200px;
+  }
+  
+  .mainContent {
     flex-grow: 1;
     padding: 20px;
     margin-left: 200px; /* width of the sidebar */
-}
+  }
+  
+  @media (max-width: 768px) {
+    .layout {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .mainContent {
+      margin-left: 0;
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .mainContent {
+      padding: 10px;
+    }
+  }
+  

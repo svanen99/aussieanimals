@@ -1,18 +1,28 @@
-import React from 'react';
-import Navbar from '../../Pages/Navbar/index'
-import Sidebar from '../Sidebar'
-import styles from './Layout.module.css';
+import React, { useState } from 'react';
+import Sidebar from '../Sidebar';
+import layoutStyles from './Layout.module.css';
+import sidebarStyles from '../Sidebar/Sidebar.module.css';
 
 const Layout = ({ children }) => {
-  return (
-    <div className={styles.layout}>
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
-      <Sidebar />
-      <main className={styles.mainContent}>
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
+
+  return (
+    <div className={layoutStyles.layout}>
+      <button className={layoutStyles.hamburger} onClick={toggleSidebar}>
+        ☰
+      </button>
+      <div className={`${sidebarStyles.sidebar} ${sidebarOpen ? sidebarStyles.open : ''}`}>
+        <Sidebar />
+      </div>
+      <div className={layoutStyles.mainContent}>
         {children}
-      </main>
+      </div>
     </div>
   );
-}
+};
 
 export default Layout;
