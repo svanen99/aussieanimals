@@ -5,6 +5,10 @@ import styles from './Yellowtailed.module.css'
 const YellowtailedComponent = () => {
     return (
         <>
+            <div className={styles.container}>
+                <img className={styles.logo}src="./Images/logga.jpeg" alt="logo" />
+                <h2>Aussie Animals Zoo</h2>
+            </div>
             <div className={styles.yellowtailedblackcockatoo}>
                 <h1>{Birds.nameyellowtailedblackcockatoo}</h1>
                 <img className={styles.image} src="/Images/yellowtailedblackcockatoo.jpeg" alt="picture of yellow-tailed black cockatoo" />

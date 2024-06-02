@@ -5,16 +5,20 @@ import styles from './Quokka.module.css';
 const MammalsQuokka = () => {
   return (
     <>
+      <div className={styles.container}>
+          <img className={styles.logo}src="./Images/logga.jpeg" alt="logo" />
+          <h2>Aussie Animals Zoo</h2>
+      </div>
       <div className={styles.quokka}> 
-        <h1>{Mammals.namequokka}</h1>
-        <img className={styles.image} src="/Images/quokka.webp" alt="picture of quokka" />
-        <p><strong>Lifespan:</strong> {Mammals.lifespanquokka}</p>
-        <p><strong>Group:</strong> {Mammals.groupquokka}</p>
-        <p><strong>Food:</strong> {Mammals.foodquokka}</p>
-        <p>{Mammals.descriptionquokka}</p>
-        <p><strong>Length:</strong> {Mammals.legnthquokka}</p>
-        <p><strong>Weight:</strong> {Mammals.weigthquokka}</p>
-        <p><strong>Found:</strong> {Mammals.foundquokka}</p>
+          <h1>{Mammals.namequokka}</h1>
+          <img className={styles.image} src="/Images/quokka.webp" alt="picture of quokka" />
+          <p><strong>Lifespan:</strong> {Mammals.lifespanquokka}</p>
+          <p><strong>Group:</strong> {Mammals.groupquokka}</p>
+          <p><strong>Food:</strong> {Mammals.foodquokka}</p>
+          <p>{Mammals.descriptionquokka}</p>
+          <p><strong>Length:</strong> {Mammals.legnthquokka}</p>
+          <p><strong>Weight:</strong> {Mammals.weigthquokka}</p>
+          <p><strong>Found:</strong> {Mammals.foundquokka}</p>
       </div>
     </>
   );

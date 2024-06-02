@@ -82,5 +82,5 @@ export const Reptiles = {
 export const Home = {
     heroTitle: "Welcome to the world of Aussie Animals!",
     aboutText: "This page is made for curious people that want to look at some funny and cute looking animals.",
-    heroLogo: "/Images/logo.jpeg"
+    heroLogo: "/Images/logga.jpeg",
 }

@@ -6,7 +6,7 @@ const CassowaryComponent = () => {
     return (
         <>
             <div className={styles.container}>
-                <img className={styles.logo}src="./Images/logo.jpeg" alt="logo" />
+                <img className={styles.logo}src="./Images/logga.jpeg" alt="logo" />
                 <h2>Aussie Animals Zoo</h2>
             </div>
             <div className={styles.cassowary}>

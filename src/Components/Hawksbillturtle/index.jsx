@@ -5,6 +5,10 @@ import styles from './Hawksbillturtle.module.css';
 const HawksbillturtleComponent = () => {
     return (
         <>
+            <div className={styles.container}>
+                <img className={styles.logo}src="./Images/logga.jpeg" alt="logo" />
+                <h2>Aussie Animals Zoo</h2>
+            </div>
             <div className={styles.hawksbillturtle}>
                 <h1>{Reptiles.namehawksbillturtle}</h1>
                 <img className={styles.image} src="/Images/hawksbillturtle.jpeg" alt="picture of turtle" />

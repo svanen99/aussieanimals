@@ -1,13 +1,13 @@
-/* Layout.module.css */
 .layout {
     display: flex;
-    margin-top: 50px; /* height of the navbar */
+    margin-top: 50px; 
   }
   
   .mainContent {
     flex-grow: 1;
     padding: 20px;
-    margin-left: 200px; /* width of the sidebar */
+    margin-left: 200px; 
+    margin-bottom: 37%;
   }
   
   @media (max-width: 768px) {

@@ -1,10 +1,45 @@
-.kookaburra {
-  margin: 0 auto;
-  padding: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+  font-family: "Josefin Slab", serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(203, 10, 10, 0.1);
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
   max-width: 800px;
-  background-color: #f9f9f9;
+  background-color: #ffeff3;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 0 auto; 
+  margin-bottom: 5%;
+}
+
+h2 {
+  padding: 0 10%;
+  margin: 10px 0;
+}
+
+.kookaburra {
+  padding: 60px; 
   width: 100%;
   box-sizing: border-box;
   text-align: center;
@@ -12,10 +47,14 @@
   flex-direction: column; 
   justify-content: center;
   align-items: center; 
+  background-color: #ffeff3;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .image {
-  width: 70%;
+  width: 40%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -31,30 +70,77 @@ p {
   line-height: 1.6;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1099px) {
   .kookaburra {
-    padding: 15px;
+    padding: 30px; 
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1.75em; 
   }
 
   p {
-    font-size: 1em;
+    font-size: 1.2em; 
+  }
+
+  .container {
+    padding: 15px;
+    margin-left: 5%; 
+    margin-right: 5%;
+  }
+
+  .logo {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .kookaburra {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5em; 
+  }
+
+  p {
+    font-size: 20px; 
+  }
+
+  .container {
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px; 
   }
 }
 
 @media (max-width: 480px) {
-  .kookaburra{
-    padding: 10px;
+  .kookaburra {
+    padding: 10px; 
   }
 
   h1 {
-    font-size: 1.2em;
+    font-size: 1.2em; 
   }
 
   p {
-    font-size: 0.9em;
+    font-size: 0.9em; 
+  }
+
+  .container {
+    padding: 10px;
+    margin-left: 5%; 
+    margin-right: 5%;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px; 
   }
 }

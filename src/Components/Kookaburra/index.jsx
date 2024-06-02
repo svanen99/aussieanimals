@@ -5,6 +5,10 @@ import styles from './Kookaburra.module.css'
 const KookaburraComponent = () => {
     return (
         <>
+        <div className={styles.container}>
+            <img className={styles.logo}src="./Images/logga.jpeg" alt="logo" />
+            <h2>Aussie Animals Zoo</h2>
+        </div>
         <div className={styles.kookaburra}>
             <h1>{Birds.namekookaburra}</h1>
             <img className={styles.image} src="/Images/kokkaburra.webp" alt="picture of kookaburra" />

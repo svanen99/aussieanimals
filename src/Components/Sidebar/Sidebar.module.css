@@ -1,49 +1,80 @@
-/* Sidebar.module.css */
+body {
+  font-family: "Josefin Slab", serif;
+  background-color: #ffe0e9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  min-height: 100vh;
+}
+
 .sidebar {
-    width: 200px;
-    background-color: #f4f4f4;
-    padding: 30px;
-    position: fixed;
-    left: 0;
-    height: calc(100vh);
-    overflow-y: auto;
-    transition: transform 0.3s ease-in-out;
+  width: 200px;
+  padding: 5px;
+  position: absolute;
+  left: 3px;
+  top: 13%; 
+  overflow-y: auto;
+  transition: transform 0.3s;
+  border: 1px solid #ff5d96;
+  border-radius: 2%;
+}
+
+.sidebar a,
+.sidebar .category {
+  color: #333;
+  text-decoration: none;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  display: block;
+  cursor: pointer;
+}
+
+.sidebar .category:active,
+.sidebar .category:hover {
+  background-color: #ffc6d9;
+}
+
+.sidebar .subMenu {
+  padding-left: 20px; 
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  background-color: #ffc6d9;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: absolute;
+    margin-right: 1%;
+    width: -webkit-fill-available;
+    height: auto;
+    padding: 10px;
   }
-  
-  .sidebar a {
-    color: #333;
-    text-decoration: none;
-    padding: 20px;
-    margin-bottom: 5px;
-    border-radius: 4px;
-    display: block;
-  }
-  
-  .sidebar .category {
-    color: #333;
-    text-decoration: none;
-    padding: 20px;
-    margin-bottom: 5px;
-    border-radius: 4px;
-    display: block;
-    cursor: pointer; /* Add cursor pointer for categories */
-  }
-  
-  .sidebar .subMenu {
-    padding-left: 20px; /* Indent submenu items */
-  }
-  
-  .sidebar a:hover,
-  .sidebar a.active {
-    background-color: #ddd;
-  }
-  
-  @media (max-width: 768px) {
-    .sidebar {
-      position: relative;
-      width: 100%;
-      height: auto;
-      padding: 10px;
-    }
-  }
-  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(203, 10, 10, 0.1);
+  margin-bottom: 20px;
+}
