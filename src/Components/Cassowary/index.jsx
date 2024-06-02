@@ -5,6 +5,10 @@ import styles from './Cassowary.module.css';
 const CassowaryComponent = () => {
     return (
         <>
+            <div className={styles.container}>
+                <img className={styles.logo}src="./Images/logo.jpeg" alt="logo" />
+                <h2>Aussie Animals Zoo</h2>
+            </div>
             <div className={styles.cassowary}>
                 <h1>{Birds.namecassowary}</h1>
                 <img className={styles.image} src="/Images/cassowary.jpeg" alt="picture of cassowary" />

@@ -5,6 +5,7 @@ import styles from './Tasmaniandevil.module.css';
 const MammalsTasmaniandevil = () => {
   return (
     <>
+      <img src="" alt="" />
       <div className={styles.tasmaniandevil}>
       <h1>{Mammals.nametasmaniandevil}</h1>
         <img className={styles.image} src="/Images/tasmaniandevil.webp" alt="picture of tasmaniandevil" />
