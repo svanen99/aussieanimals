@@ -7,7 +7,7 @@ const CassowaryComponent = () => {
         <>
             <div className={styles.cassowary}>
                 <h1>{Birds.namecassowary}</h1>
-                <img src="/Images/cassowary.jpeg" alt="picture of cassowary" />
+                <img className={styles.image} src="/Images/cassowary.jpeg" alt="picture of cassowary" />
                 <p><strong>Lifespan:</strong> {Birds.lifespancassowary}</p>
                 <p><strong>Group:</strong> {Birds.groupcassowary}</p>
                 <p><strong>Food:</strong> {Birds.foodcassowary}</p>

@@ -7,7 +7,7 @@ const HawksbillturtleComponent = () => {
         <>
             <div className={styles.hawksbillturtle}>
                 <h1>{Reptiles.namehawksbillturtle}</h1>
-                <img src="/Images/hawksbillturtle.jpeg" alt="picture of turtle" />
+                <img className={styles.image} src="/Images/hawksbillturtle.jpeg" alt="picture of turtle" />
                 <p><strong>Lifespan:</strong> {Reptiles.lifespanhawksbillturtle}</p>
                 <p><strong>Group:</strong> {Reptiles.grouphawksbillturtle}</p>
                 <p><strong>Food:</strong> {Reptiles.foodhawksbillturtle}</p>

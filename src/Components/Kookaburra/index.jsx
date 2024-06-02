@@ -1,6 +1,6 @@
 import React from "react"
 import { Birds } from '../../data/data';
-import styles from './Birds.module.css'
+import styles from './Kookaburra.module.css'
 
 const KookaburraComponent = () => {
     return (
@@ -19,5 +19,4 @@ const KookaburraComponent = () => {
         </>
     )
 }
-
 export default KookaburraComponent;

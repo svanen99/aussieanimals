@@ -7,7 +7,7 @@ const MammalsQuokka = () => {
     <>
       <div className={styles.quokka}> 
         <h1>{Mammals.namequokka}</h1>
-        <img src="/Images/quokka.webp" alt="picture of quokka" />
+        <img className={styles.image} src="/Images/quokka.webp" alt="picture of quokka" />
         <p><strong>Lifespan:</strong> {Mammals.lifespanquokka}</p>
         <p><strong>Group:</strong> {Mammals.groupquokka}</p>
         <p><strong>Food:</strong> {Mammals.foodquokka}</p>

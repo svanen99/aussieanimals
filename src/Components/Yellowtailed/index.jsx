@@ -7,7 +7,7 @@ const YellowtailedComponent = () => {
         <>
             <div className={styles.yellowtailedblackcockatoo}>
                 <h1>{Birds.nameyellowtailedblackcockatoo}</h1>
-                <img src="/Images/yellowtailedblackcockatoo.jpeg" alt="picture of yellow-tailed black cockatoo" />
+                <img className={styles.image} src="/Images/yellowtailedblackcockatoo.jpeg" alt="picture of yellow-tailed black cockatoo" />
                 <p><strong>Lifespan:</strong> {Birds.lifespanyellowtailedblackcockatoo}</p>
                 <p><strong>Group:</strong> {Birds.groupyellowtailedblackcockatoo}</p>
                 <p><strong>Food:</strong> {Birds.foodyellowtailedblackcockatoo}</p>

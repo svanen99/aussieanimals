@@ -1,24 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Sidebar from '../Sidebar';
-import layoutStyles from './Layout.module.css';
-import sidebarStyles from '../Sidebar/Sidebar.module.css';
+import styles from './Layout.module.css';
 
 const Layout = ({ children }) => {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-
-  const toggleSidebar = () => {
-    setSidebarOpen(!sidebarOpen);
-  };
-
   return (
-    <div className={layoutStyles.layout}>
-      <button className={layoutStyles.hamburger} onClick={toggleSidebar}>
-        ☰
-      </button>
-      <div className={`${sidebarStyles.sidebar} ${sidebarOpen ? sidebarStyles.open : ''}`}>
+    <div className={styles.layout}>
+      <div className={styles.sidebar}>
         <Sidebar />
       </div>
-      <div className={layoutStyles.mainContent}>
+      <div className={styles.mainContent}>
         {children}
       </div>
     </div>

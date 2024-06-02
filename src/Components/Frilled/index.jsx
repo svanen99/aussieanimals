@@ -7,7 +7,7 @@ const FrillneckedlizardComponent = () => {
         <>
             <div className={styles.frillneckedlizard}>
         <h1>{Reptiles.namefrillneckedlizard}</h1>
-        <img src="/Images/frillneckedlizard.jpeg" alt="picture of frillneckedlizard" />
+        <img img className={styles.image} src="/Images/frillneckedlizard.jpeg" alt="picture of frillneckedlizard" />
         <p><strong>Lifespan:</strong> {Reptiles.lifespanfrillneckedlizard}</p>
         <p><strong>Group:</strong> {Reptiles.groupfrillneckedlizard}</p>
         <p><strong>Food:</strong> {Reptiles.foodfrillneckedlizard}</p>

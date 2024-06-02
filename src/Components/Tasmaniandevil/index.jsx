@@ -7,7 +7,7 @@ const MammalsTasmaniandevil = () => {
     <>
       <div className={styles.tasmaniandevil}>
       <h1>{Mammals.nametasmaniandevil}</h1>
-        <img src="/Images/tasmaniandevil.webp" alt="picture of tasmaniandevil" />
+        <img className={styles.image} src="/Images/tasmaniandevil.webp" alt="picture of tasmaniandevil" />
         <p><strong>Lifespan:</strong> {Mammals.lifespantasmaniandevil}</p>
         <p><strong>Group:</strong> {Mammals.grouptasmaniandevil}</p>
         <p><strong>Food:</strong> {Mammals.foodtasmaniandevil}</p>

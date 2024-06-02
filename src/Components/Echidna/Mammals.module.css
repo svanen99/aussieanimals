@@ -7,10 +7,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     box-sizing: border-box;
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
   }
   
   .image {
-    width: 100%;
+    width: 70%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -26,31 +31,27 @@
     line-height: 1.6;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1099px) {
     .echidna {
-      padding: 15px;
-    }
-  
-    h1 {
-      font-size: 1.5em;
+      padding: 70px;
     }
   
     p {
-      font-size: 1em;
+      font-size: 20px;
     }
   }
   
   @media (max-width: 480px) {
     .echidna {
-      padding: 10px;
-    }
-  
-    h1 {
-      font-size: 1.2em;
-    }
-  
-    p {
-      font-size: 0.9em;
-    }
+        padding: 70px;
+        font-size: 20px;
+      }
+    
+      h1 {
+        font-size: 1em;
+      }
+    
+      p {
+        font-size: 20px;
+      }
   }
-  
